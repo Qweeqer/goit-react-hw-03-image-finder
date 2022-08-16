@@ -24,7 +24,7 @@ export const Form = styled.form`
   align-items: center;
   width: 100%;
   max-width: 600px;
-  background-color: #fff;
+  //   background-color: #fff;
   border-radius: 3px;
   overflow: hidden;
 `;
@@ -48,6 +48,7 @@ export const SearchButton = styled.button`
 export const SearchInput = styled.input`
   display: inline-block;
   width: 100%;
+  height: 48px;
   font: inherit;
   font-size: 20px;
   border: none;
@@ -59,12 +60,32 @@ export const SearchInput = styled.input`
     font-size: 18px;
   }
 `;
-export const ButtonLabel = styled.span`
-  display: flex;
-  align-items: center;
-  width: 100%;
-  max-width: 600px;
-  background-color: #fff;
-  border-radius: 3px;
-  overflow: hidden;
-`;
+// export const ButtonLabel = styled.span`
+//   display: flex;
+//   align-items: center;
+//   width: 100%;
+//   max-width: 600px;
+//   background-color: #fff;
+//   border-radius: 3px;
+//   overflow: hidden;
+// `;
+// export const CylonEye = styled.div`
+//   background-color: red;
+//   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
+//   background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
+//   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
+//   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
+//   color: white;
+//   height: 100%;
+//   width: 20%;
+//   animation: 4s linear 0s infinite alternate move_eye;
+// }
+
+// @keyframes move_eye {
+//   from {
+//     margin-left: -20%;
+//   }
+
+//   to {
+//     margin-left: 100%;
+//   }`;
