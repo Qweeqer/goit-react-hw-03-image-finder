@@ -34,9 +34,8 @@ export const SearchButton = styled.button`
   width: 10%;
   height: 48px;
   border: 0;
-  background-size: 40%;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #c220eb;
+  color: #fff;
   opacity: 0.6;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
@@ -60,32 +59,3 @@ export const SearchInput = styled.input`
     font-size: 18px;
   }
 `;
-// export const ButtonLabel = styled.span`
-//   display: flex;
-//   align-items: center;
-//   width: 100%;
-//   max-width: 600px;
-//   background-color: #fff;
-//   border-radius: 3px;
-//   overflow: hidden;
-// `;
-// export const CylonEye = styled.div`
-//   background-color: red;
-//   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
-//   background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
-//   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
-//   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
-//   color: white;
-//   height: 100%;
-//   width: 20%;
-//   animation: 4s linear 0s infinite alternate move_eye;
-// }
-
-// @keyframes move_eye {
-//   from {
-//     margin-left: -20%;
-//   }
-
-//   to {
-//     margin-left: 100%;
-//   }`;
