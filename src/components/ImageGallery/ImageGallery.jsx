@@ -66,7 +66,6 @@ export class ImageGallery extends React.Component {
       });
     }
   }
-
   render() {
     const { status, arrayOfPictures, showModal, largeImageURL, imageTag } =
       this.state;
@@ -97,7 +96,10 @@ export class ImageGallery extends React.Component {
                 onCloseModal={this.modalToggle}
               />
             )}
-            {<Button onLoadMore={this.onLoadMore} />}
+            {arrayOfPictures.length % 12 === 0 &&
+              arrayOfPictures.length !== 0 && (
+                <Button onLoadMore={this.onLoadMore} />
+              )}
           </Gallery>
         </>
       );
