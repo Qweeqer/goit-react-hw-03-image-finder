@@ -106,6 +106,3 @@ export class ImageGallery extends React.Component {
     }
   }
 }
-// ImageGallery.propTypes = {
-
-// }
