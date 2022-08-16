@@ -96,11 +96,11 @@ export class ImageGallery extends React.Component {
                 onCloseModal={this.modalToggle}
               />
             )}
-            {arrayOfPictures.length % 12 === 0 &&
-              arrayOfPictures.length !== 0 && (
-                <Button onLoadMore={this.onLoadMore} />
-              )}
           </Gallery>
+          {arrayOfPictures.length % 12 === 0 &&
+            arrayOfPictures.length !== 0 && (
+              <Button onLoadMore={this.onLoadMore} />
+            )}
         </>
       );
     }
