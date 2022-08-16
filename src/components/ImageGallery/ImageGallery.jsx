@@ -1,11 +1,12 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import { toast } from 'react-toastify';
+
 import ImageGalleryItem from 'components/ImageGalleryItem/ImageGalleryItem';
 import Loader from 'components/Loader/Loader';
 import Button from 'components/Button/Button';
 import Modal from 'components/Modal/Modal';
-import { Gallery } from 'components/ImageGallery/ImageGalleryItem.styled';
+import { Gallery } from 'components/ImageGallery/ImageGallery.styled';
 import { requestFetch } from 'components/services/fetch-pictures';
 
 export class ImageGallery extends React.Component {
