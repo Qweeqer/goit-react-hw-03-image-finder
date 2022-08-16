@@ -31,11 +31,19 @@ export const Form = styled.form`
 
 export const SearchButton = styled.button`
   display: inline-block;
-  width: 10%;
+  width: 15%;
   height: 48px;
   border: 0;
   background-color: #c220eb;
   color: #fff;
+
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.33;
+  font-style: normal;
+  font-weight: 500;
+
   opacity: 0.6;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
