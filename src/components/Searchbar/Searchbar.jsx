@@ -6,7 +6,6 @@ import {
   SearchButton,
   SearchInput,
   SearchMenu,
-  ButtonLabel,
 } from 'components/Searchbar/Searchbar.styled';
 
 //import 'components/Searchbar/Searchbar.css';
@@ -33,9 +32,7 @@ export class Searchbar extends React.Component {
     return (
       <SearchMenu>
         <Form onSubmit={this.handleSubmit}>
-          <SearchButton type="submit">
-            <ButtonLabel>Search</ButtonLabel>
-          </SearchButton>
+          <SearchButton type="submit">Search</SearchButton>
           <SearchInput
             type="text"
             autoComplete="off"
