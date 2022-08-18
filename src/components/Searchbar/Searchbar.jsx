@@ -8,7 +8,7 @@ import {
   SearchMenu,
 } from 'components/Searchbar/Searchbar.styled';
 
-//import 'components/Searchbar/Searchbar.css';
+import s from 'components/Searchbar/Searchbar.module.css';
 
 export class Searchbar extends React.Component {
   state = {
@@ -31,9 +31,12 @@ export class Searchbar extends React.Component {
   render() {
     return (
       <SearchMenu>
-        <Form onSubmit={this.handleSubmit}>
-          <SearchButton type="submit">Search</SearchButton>
+        <Form className={s.searchForm} onSubmit={this.handleSubmit}>
+          <SearchButton className={s.viewPort} type="submit">
+            Search
+          </SearchButton>
           <SearchInput
+            className={s.inputSearch}
             type="text"
             autoComplete="off"
             autoFocus
@@ -42,6 +45,7 @@ export class Searchbar extends React.Component {
             value={this.state.imageSearch}
             onChange={this.handleNameChange}
           />
+          <div className={s.cylonEye}></div>
         </Form>
       </SearchMenu>
     );
