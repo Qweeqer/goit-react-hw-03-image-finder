@@ -32,6 +32,8 @@
   font-size: 16px;
   line-height: 1.5;
   outline-color: #32a1ce;
+
+  box-shadow: inset 2px 4px 4px 1px #b3b2b278;
 }
 /* ----------ceylon eye------- */
 .viewPort {

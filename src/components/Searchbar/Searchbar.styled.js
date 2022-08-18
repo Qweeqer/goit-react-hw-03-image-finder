@@ -31,7 +31,7 @@ export const Form = styled.form`
 
 export const SearchButton = styled.button`
   display: inline-block;
-  width: 15%;
+  // width: 15%;
   height: 48px;
   border: 0;
   background-color: #c220eb;
