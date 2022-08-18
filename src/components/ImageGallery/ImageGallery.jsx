@@ -1,5 +1,5 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import { toast } from 'react-toastify';
 
 import ImageGalleryItem from 'components/ImageGalleryItem/ImageGalleryItem';
@@ -106,3 +106,14 @@ export class ImageGallery extends React.Component {
     }
   }
 }
+
+ImageGallery.propTypes = {
+  arrayOfPictures: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      tags: PropTypes.arrayOf(PropTypes.string).isRequired,
+      webformatURL: PropTypes.string,
+      largeImageURL: PropTypes.string,
+    })
+  ),
+};
