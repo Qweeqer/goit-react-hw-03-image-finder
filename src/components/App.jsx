@@ -14,7 +14,6 @@ export class ImageFinder extends React.Component {
   hadleFornSubmit = imageSearch => {
     this.setState({ imageSearch });
   };
-
   render() {
     return (
       <App>

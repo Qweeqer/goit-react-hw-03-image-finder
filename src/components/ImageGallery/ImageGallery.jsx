@@ -108,5 +108,5 @@ export class ImageGallery extends React.Component {
 }
 
 ImageGallery.propTypes = {
-  imageSearch: PropTypes.func.isRequired,
+  imageSearch: PropTypes.string.isRequired,
 };
