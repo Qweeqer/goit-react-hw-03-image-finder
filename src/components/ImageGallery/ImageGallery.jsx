@@ -108,12 +108,5 @@ export class ImageGallery extends React.Component {
 }
 
 ImageGallery.propTypes = {
-  arrayOfPictures: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      tags: PropTypes.arrayOf(PropTypes.string).isRequired,
-      webformatURL: PropTypes.string,
-      largeImageURL: PropTypes.string,
-    })
-  ),
+  imageSearch: PropTypes.func.isRequired,
 };
